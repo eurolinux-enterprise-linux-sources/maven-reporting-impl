@@ -1,6 +1,6 @@
 Name:           maven-reporting-impl
 Version:        2.2
-Release:        7%{?dist}
+Release:        8%{?dist}
 Summary:        Abstract classes to manage report generation
 License:        ASL 2.0
 URL:            http://maven.apache.org/shared/maven-reporting-impl
@@ -58,6 +58,9 @@ cp -p %{SOURCE1} LICENSE.txt
 %doc LICENSE.txt
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.2-8
+- Mass rebuild 2013-12-27
+
 * Fri Jun 28 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 2.2-7
 - Rebuild to regenerate API documentation
 - Resolves: CVE-2013-1571
